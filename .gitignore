@@ -26,3 +26,5 @@ deps/
 __pycache__/
 .fingerprint/
 **/.fingerprint/
+build/
+**/build/
