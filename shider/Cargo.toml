@@ -8,3 +8,5 @@ edition = "2021"
 [dependencies]
 directories = "5.0.1"
 ureq = "2.7.0"
+zip = "0.6.6"
+zip-extract = "0.1.2"

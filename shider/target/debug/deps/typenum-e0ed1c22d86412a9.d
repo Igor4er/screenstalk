@@ -1,0 +1,18 @@
+C:\Users\User\screenstalk\shider\target\debug\deps\typenum-e0ed1c22d86412a9.rmeta: C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\lib.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\bit.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\int.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\marker_traits.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\operator_aliases.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\private.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\type_operators.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\uint.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\array.rs C:\Users\User\screenstalk\shider\target\debug\build\typenum-b6c221691d094d26\out\op.rs C:\Users\User\screenstalk\shider\target\debug\build\typenum-b6c221691d094d26\out\consts.rs
+
+C:\Users\User\screenstalk\shider\target\debug\deps\typenum-e0ed1c22d86412a9.d: C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\lib.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\bit.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\int.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\marker_traits.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\operator_aliases.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\private.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\type_operators.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\uint.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\array.rs C:\Users\User\screenstalk\shider\target\debug\build\typenum-b6c221691d094d26\out\op.rs C:\Users\User\screenstalk\shider\target\debug\build\typenum-b6c221691d094d26\out\consts.rs
+
+C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\lib.rs:
+C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\bit.rs:
+C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\int.rs:
+C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\marker_traits.rs:
+C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\operator_aliases.rs:
+C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\private.rs:
+C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\type_operators.rs:
+C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\uint.rs:
+C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\typenum-1.16.0\src\array.rs:
+C:\Users\User\screenstalk\shider\target\debug\build\typenum-b6c221691d094d26\out\op.rs:
+C:\Users\User\screenstalk\shider\target\debug\build\typenum-b6c221691d094d26\out\consts.rs:
+
+# env-dep:TYPENUM_BUILD_CONSTS=C:\\Users\\User\\screenstalk\\shider\\target\\debug\\build\\typenum-b6c221691d094d26\\out\\consts.rs
+# env-dep:TYPENUM_BUILD_OP=C:\\Users\\User\\screenstalk\\shider\\target\\debug\\build\\typenum-b6c221691d094d26\\out\\op.rs
