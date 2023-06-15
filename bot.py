@@ -2,8 +2,7 @@ import telebot;
 from telebot import types;
 import time;
 import get_screenshots_bytes;
-
-
+from .screenshot import get_screenshots_bytes
 bot = telebot.TeleBot("6182954429:AAFhs3NF6Diynl2lFBzNvJGpwtTd9GGshMs")
 admins = [1148309975, 1028390936]
 @bot.message_handler(commands=['start'])
