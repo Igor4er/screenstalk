@@ -24,3 +24,5 @@ TestResults.xml
 deps/
 **/deps/
 __pycache__/
+.fingerprint/
+**/.fingerprint/
