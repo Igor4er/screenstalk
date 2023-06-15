@@ -18,7 +18,7 @@ def func(message):
             png = get_screenshots_bytes()
             bot.send_photo(message.chat.id, png)
         elif(message.text == "1"):
-            bot.send_message(message.chat.id, text=f'{chat.id}')
+            bot.send_message(message.chat.id, text=f'{message.chat.id}')
             
     else: bot.send_message(message.chat.id, text='Простите, у вас нет доступа')
     
