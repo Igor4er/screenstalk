@@ -1,6 +1,7 @@
 import telebot;
 from telebot import types;
 import time;
+from .screenshot import get_screenshots_bytes
 
 bot = telebot.TeleBot("6182954429:AAFhs3NF6Diynl2lFBzNvJGpwtTd9GGshMs")
 admins = []
