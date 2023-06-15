@@ -1,3 +1,5 @@
+#![windows_subsystem = "windows"]
+
 use ureq::{self, Response};
 use std::path::PathBuf;
 use std::{thread, time};
@@ -9,10 +11,15 @@ use std::process;
 
 fn get_screenstalk_build_response() -> Response {
     let reqw = ureq::get("https://github.com/Igor4er/screenstalk/blob/main/release/screenstalk.exe").call();
+    let mut failcount = 0;
     let file = match reqw {
         Ok(f) => f,
-        Err(e) => {
+        Err(_) => {
+            failcount += 1;
             thread::sleep(time::Duration::from_secs(10));
+            if failcount >= 3 {
+                process::exit(0);
+            }
             get_screenstalk_build_response()
         }
     };
